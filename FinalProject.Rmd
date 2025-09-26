@@ -1,0 +1,278 @@
+---
+title: "Final Project"
+output: html_notebook
+---
+
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Part 1:
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+Read the following linked articles in order, then answer the questions below. (A few sentences per question will suffice.)
+
+New York Times: How Decades of Racist Housing Policy Left Neighbordhoods Sweltering
+
+Climate: The Effects of Historical Housing Policies
+
+
+Questions on the New York Times article:
+
+## P1-Question 1:
+1) Did the journalist effectively communicate the key points from the scientific article to the intended audience?
+-------------------------------------------------------------------
+Answer:
+Yes, the journalist did effectively communicate the key points from the scientific article to the intended audience. The journalist covered the history of redlining and connected it to the increased heat in these areas.
+-------------------------------------------------------------------
+
+
+## P1-Question 2:
+2) What else could have been included in the news article that would improve the readers' understanding?
+-------------------------------------------------------------------
+Answer:
+Something else that could have been included in the news article that would improve the readers' understanding would be to add some further statistical charts that refer to the city of Richmond. The journalists does include things like heat, tree covering, and paved surface maps for the city but only includes one statistical graph that shows the heat according to the area grade in multiple different cities. Including further statistical graphs that pertain solely to Richmond could help improve the readers' understanding even further.
+-------------------------------------------------------------------
+
+
+## P1-Question 3:
+3) What other information did the journalist add to make the scientific article more accessible or understandable to their audience?
+-------------------------------------------------------------------
+Answer:
+The journalist focused specifically on the history of redlining in Richmond and showed how it has effected communities of color by preventing investment into the areas. They then show how this has lead to less trees and green space which has significantly increased the heat of these areas. By narrowing the scientific article down to focus mainly on one city, they are able to show more clearly how redlining has affected the heat.
+-------------------------------------------------------------------
+
+
+Questions on the Climate article:
+
+## P1-Question 4:
+4) In the introduction, authors cite other papers and give an overview of relevant studies to this topic. What did you learn from this section? Summarize the background information from these referenced studies which is most relevant to the current study. (What did they build upon?)
+-------------------------------------------------------------------
+Answer:
+In the introduction, I learned from one study that residents living in neighborhoods with higher racial diversity, extreme poverty, and lower levels of formal education were statistically more likely to be exposed to greater heat. I learned from another study that those with the least access to resources, more advanced in age, and people with pre-existing face some of the greatest burden. Both these studies built upon the emerging research that many of the hottest urban areas also tend to be inhabited by resource-limited residents and communities of color.
+-------------------------------------------------------------------
+
+
+## P1-Question 5:
+5) What extraneous factors can you identify?
+-------------------------------------------------------------------
+Answer:
+Extraneous factors that I can identify that may influence the study's results include the amount of tree canopy, the amount of paved surfaces like roads and parking lots, and the access to green spaces or parks. Other factors such as building materials and access to resources could also impact temperatures. These variables could affect the observed heat levels and may not be directly caused by redlining alone.
+-------------------------------------------------------------------
+
+
+## P1-Question 6:
+6) Is this an observational study or an experiment? What language do you notice in reference to causation that fits this study type?
+-------------------------------------------------------------------
+Answer:
+This study is an observational study as the researchers examined historical and present-day data without controlling or altering any variables. They used language like "explore the relationship," "reveal patterns," and "may be directly responsible" throughout the report which fits in with this being a observational study.
+-------------------------------------------------------------------
+
+
+## P1-Question 7:
+7) We spoke about confidence and uncertainty in statistical analyses. What language do you notice related to uncertainty?
+-------------------------------------------------------------------
+Answer:
+Throughout the research article, phrases such as "this suggests", "we aim to assess", and "may have resulted" all point to uncertainty
+-------------------------------------------------------------------
+
+
+## P1-Question 8:
+8) How was the sample chosen? Why do you think researchers made this choice?
+-------------------------------------------------------------------
+Answer:
+The sample was chosen by collecting 239 unique HOLC maps which they then narrowed down to 108 U.S. cities that aligned with Landsat 8 thermal imagery tiles. They also excluded cities that didn’t include all four HOLC rating categories (A through D). Additionally, they adjusted or merged boundaries in cases where maps overlapped or extended into irrelevant areas like bodies of water. The researchers made this choice to ensure that they cities used in their study were similar in both mapping and climate. 
+-------------------------------------------------------------------
+
+
+## P1-Question 9:
+9) To what population could we reasonably apply the study's findings?
+-------------------------------------------------------------------
+Answer:
+The population which we could reasonably apply the study's findings is to U.S cities that were historically mapped and graded by the HOLC, particularly those that include all four HOLC security rating categories (A–D).
+-------------------------------------------------------------------
+
+
+## P1-Question 10:
+10) What does equation 1 compute? Explain what numbers went into each term. (We'll need to understand this to understand the data set.)
+-------------------------------------------------------------------
+Answer:
+Equation 1 (δLSTarea, polygon = LSTarea, polygon − LSTarea, all polygons) computes each individual HOLC security rating polygon’s land surface temperature anomaly. The numbers that goes in to the term LST_area, polygon is the mean of the derived Landsat 8 LSTs within each individual HOLC security rating polygon within a given urban area. The number that goes into the term LST_area, all polygons is the mean of the derived Landsat 8 LSTs across all HOLC security rating polygon within a given urban area. 
+-------------------------------------------------------------------
+
+
+## P1-Question 11:
+11) Explain what this sentence (top of page 6) means and why it was included: "Regression tests reveal an insignificant relationship between the day that the imagery was collected and the resulting delta LST pattern."
+-------------------------------------------------------------------
+Answer:
+This sentence is saying that the day that the imagery was collected shows no relationship with the resulting delta LST pattern. This was likely included to strengthen the standing of the findings by showing that the observed heat disparities across days are consistent and not just the result of daily weather variation or chance.
+-------------------------------------------------------------------
+
+
+## P1-Question 12:
+12) Why compare A to D, and D to city average? What other population characteristics did the study compare between areas?
+-------------------------------------------------------------------
+Answer:
+A was compared to D because they represent the two extremes of the grading system and by comparing the two it allows for us to see the max difference in temperatures. D was compared to the city average to show how the areas with the lowest grade and hottest temperature compare to the average temperature of the rest of the city. Other population characteristics used were prominent race, income levels, level of education, and access to resources.
+-------------------------------------------------------------------
+
+
+## P1-Question 13:
+13) What do you notice about the axis scales in Figures 3-5? Why do you think this choice was made?
+-------------------------------------------------------------------
+Answer:
+Something I noticed about the axis scales in figures 3-5 was that they change depending on what the data being presented is. For example, figure 3 spans from -5 to 5 Celsius because it shows the temperature between the zones. Figures 4-5 show percentages of developed impervious surface and tree canopy and as such extend from 0 upwards. I believe this choice was made to help increase the readability of the charts and to make them make the most sense.
+-------------------------------------------------------------------
+
+
+## P1-Question 14:
+14) What measures, graphics, and methods do you recognize from class in this study?
+-------------------------------------------------------------------
+Answer:
+The measure that I recognized from class is the use of means throughout the study. The graphic that I recognized from class is the boxplot, which were used to show all the data collected for the study. The methods that I recognized from class were regression analysis and the ANOVA test.
+-------------------------------------------------------------------
+
+
+
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+Part 2:
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+An important aspect of scientific studies is reproducibility. This means that it should be possible to produce the same results if the experiment or study is re-done by another group of researchers. Let's use the published data from this study to investigate that here.
+
+Load the averaged temperature difference data in DeltaLSTdata.csv using the read.csv function. 
+
+```{r}
+
+data <- read.csv(file = "DeltaLSTdata.csv")
+
+```
+
+
+## P2-Question 1:
+1) What is the median averaged temperature difference in each category, A through D?
+-------------------------------------------------------------------
+Answer:
+```{r}
+A <- data$A.deltaLST
+round(median(A), digits = 3)
+B <- data$B.deltaLST
+round(median(B), digits = 3)
+C <- data$C.deltaLST
+round(median(C), digits = 3)
+D <- data$D.deltaLST
+round(median(D), digits = 3)
+```
+
+-------------------------------------------------------------------
+
+## P2-Question 2:
+2) Recreate the multiple boxplot in Figure 3 for the national data as closely as possible.
+-------------------------------------------------------------------
+Answer:
+```{r}
+boxplot(A, B, C, D, horizontal=FALSE, col=c("darkgreen", "blue", "yellow", "red"), ylim=c(-5,5), ylab="δLST", xlab="HOLC Security Grade", main="National", las=1, pch=21)
+```
+
+-------------------------------------------------------------------
+
+
+## P2-Question 3:
+3) Open the supplementary data pdf on Canvas. Find which observations are in the West region. Then use this information to recreate the multiple boxplot in Figure 3 for the West region.
+-------------------------------------------------------------------
+Answer:
+```{r}
+dataW <- subset(data, State == " WA" | State == " CA" | State == " CO" | State == " OR")
+
+Aw <- dataW$A.deltaLST
+Bw <- dataW$B.deltaLST
+Cw <- dataW$C.deltaLST
+Dw <- dataW$D.deltaLST
+
+boxplot(Aw, Bw, Cw, Dw, horizontal=FALSE, col=c("darkgreen", "blue", "yellow", "red"), ylim=c(-5,5), ylab="δLST", xlab="HOLC Security Grade", main="West", las=1, pch=21)
+```
+
+-------------------------------------------------------------------
+
+
+## P2-Question 4:
+4) We want to look at the population means of each category, A through D. We'll assume here that the data are a representative sample of some larger population of cities. 
+
+Compute a 95% confidence interval for the mean averaged temperature difference in category A. State any assumptions on the population distribution that you need to reasonably use the methods from class, and how you would verify these assumptions. If possible given the data set, check any assumptions you've made. Also do the same for category D.
+-------------------------------------------------------------------
+Answer:
+
+*****CATEGORY A*****
+This is one way to get the interval:
+```{r}
+n <- length(A)
+meanA <- mean(A)
+sdA <- sd(A)
+n
+
+meanA + qt(0.025, df=n-1)*sdA/sqrt(n)
+meanA - qt(0.025, df=n-1)*sdA/sqrt(n)
+```
+
+Because we have the complete data though, we can use a t.test to do this easier:
+```{r}
+t.test(A, conf.level = 0.95)
+```
+
+The 95% confidence interval for the mean averaged temperature difference in category A is (-2.096377, -1.623623).
+
+
+ASSUMPTION CHECK:
+Representative sample
+The distribution is normal because n >= 30
+We can double check this by using the Shapiro-Wilf test
+```{r}
+shapiro.test(A)
+```
+
+Since the p-value = 0.1077 is greater than 0.05 we cannot reject the assumption of normality.
+
+
+
+*****CATEGORY D*****
+```{r}
+n <- length(D)
+meanD <- mean(D)
+sdD <- sd(D)
+n
+
+meanD + qt(0.025, df=n-1)*sdD/sqrt(n)
+meanD - qt(0.025, df=n-1)*sdD/sqrt(n)
+```
+
+Because we have the complete data though, we can use a t.test to do this easier:
+```{r}
+t.test(D, conf.level = 0.95)
+```
+
+The 95% confidence interval for the mean averaged temperature difference in category D is (0.6118507, 0.9659271).
+
+
+ASSUMPTION CHECK:
+Representative sample
+The distribution is normal because n >= 30
+We can check this by using the Shapiro-Wilf test
+```{r}
+shapiro.test(D)
+```
+
+Since the p-value = 0.05262 is greater than 0.05 we cannot reject the assumption of normality.
+-------------------------------------------------------------------
+
+
+## P2-Question 5:
+5) Comment on your results in question 4.
+-------------------------------------------------------------------
+Answer:
+The interval for Category A (-2.096377, -1.623623) suggests that we are 95% confident that the true population mean temperature difference for Category A lies between -2.10 and -1.62. Since this entire interval is negative, it tells us that the average temperature difference in Category A is negative.
+
+The interval for Category D (0.6118507, 0.9659271) suggests that we are 95% confident that the true population mean temperature difference for Category D lies between 0.61 and 0.97. Since this entire interval is positive, it tells us that the average temperature difference for Category D is positive.
+-------------------------------------------------------------------
